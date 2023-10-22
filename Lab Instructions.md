@@ -32,7 +32,7 @@ You can try running this command without that addition to see how much error mes
 5. Now we can see from our results that we found one file that seems very promising, let's read it.
 
 6. In the terminal emulator run the command cat /tmp/ideal_society_brief.txt.
-{add second screenshot}
+![](./Step6.png)
 
 7. Based on the information found in the brief we see that there should be another file with hints on where we can get some database credentials.
 As a next step let's search the tmp directory and see if we can find that file.
