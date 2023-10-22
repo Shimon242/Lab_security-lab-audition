@@ -4,7 +4,7 @@
 touch /tmp/ideal_society_brief.txt
 
 # add text to text file
-echo "As per our meeting on July 5th 2023, the executive team has decided to move forward with the ideal society infrastructure project. In order to allow for easy collaboration we will be storing the  the credentials for the projects main SQL database in a shared file. We will meet on July 18th 2023 to discuss what those credentials should be and save the meeting briefs for future reference under the /tmp directory.” > /tmp/ideal_society_brief.txt
+echo "As per our meeting on July 5th 2023, the executive team has decided to move forward with the ideal society infrastructure project. In order to allow for easy collaboration we will be storing the  the credentials for the projects main SQL database in a shared file. We will meet on July 18th 2023 to discuss what those credentials should be and save the meeting briefs for future reference under the /tmp directory." > /tmp/ideal_society_brief.txt
 
 # add second file
 touch /tmp/.ideal_society_secret_brief.txt
