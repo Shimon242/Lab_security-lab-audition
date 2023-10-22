@@ -26,7 +26,8 @@ To do this let's run a command that will scan the entire file system for any fil
 
 **Note:** The command "2>/dev/null" allows us to filter out all responses that give us errors, making it much easier to find the files of interest. 
 You can try running this command without that addition to see how much error messages we can get looking for files.
-{add first screenshot}
+
+![](./Step4.png)
 
 5. Now we can see from our results that we found one file that seems very promising, let's read it.
 
