@@ -16,7 +16,7 @@ echo -n “As agreed upon during our meeting, we will create shared credentials 
 touch /var/tmp/secrets.txt
 
 # add text to third file
-Echo -n “ Database login credentials: Username: Admin Password: l],j2Twv%6kr18e%?}sQ” > /var/tmp/secrets.txt
+echo -n “ Database login credentials: Username: Admin Password: l],j2Twv%6kr18e%?}sQ” > /var/tmp/secrets.txt
 
 # change permissions of third file
 chmod 600 /var/tmp/secrets.txt
