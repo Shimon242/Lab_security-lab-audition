@@ -10,7 +10,7 @@ side.
 
 In this lab we will be acting as the dark kittens hacking group.
 We have already gained access to one of the company's systems,
-now it's time to examine the system, find informationon their plans
+now it's time to examine the system, find information on their plans
 and find a way to stop them! 
 
 First things first, let's configure the environment.
