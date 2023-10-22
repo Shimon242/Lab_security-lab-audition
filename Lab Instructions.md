@@ -38,30 +38,30 @@ You can try running this command without that addition to see how much error mes
 As a next step let's search the tmp directory and see if we can find that file.
 
 8. In the terminal emulator run the command ls /tmp.
-{add third screenshot}
+![](./Step8.png)
 
 9. We get no hits on any new files. However, that doesn't always mean that there are no files present, let's run a new command to look for any hidden files.
 
 10. In the terminal emulator run the command ls -la /tmp.
-{add fourth screenshot}
+![](./Step9.png)
 
 11. Now we see that there is another file hidden in this directory, let's try reading this file.
 
 12. In the terminal emulator run the command cat /tmp/.ideal_society_secret_brief.txt.
-{add fifth screenshot}
+![](./Step12.png)
 
 13. Based on the output it looks like this file has been encoded, making it impossible to read in this form. 
 This is not uncommon when you are looking at sensitive information that people want to protect. However, based
 on the equal sign at the end it looks like its base64 encoded, as a next step let's try to decode it.
 
 14. In the terminal emulator run the command cat /tmp/.ideal_society_secret_brief.txt | base64 —decode.
-{add sixth screenshot}
+![](./Step14.png)
 
 15. It looks like that worked and we are able to read the message. It looks like the credentials are stored in a file in the /var/tmp directory
 in a file called secrets.txt. Let's try to read it.
 
 16. In the terminal emulator run the command cat /var/tmp/secrets.txt.
-{add seventh screenshot}
+![](./Step16.png)
 
 
 17. It seems we don't have permissions to read this file. 
@@ -73,7 +73,7 @@ that we normally wouldn't be able to run.
 to read the file as the root user.
 
 19. In the terminal emulator run the command sudo cat /var/tmp/secrets.txt.
-{add eigth screenshot}
+![](./Step19.png)
 
 **Analysis:** This final screenshot shows us exposed credentials to the company database.
 As a hacker in this situation we would be able to use these credentials to connect
