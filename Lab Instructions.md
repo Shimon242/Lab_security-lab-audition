@@ -42,7 +42,7 @@ As a next step let's search the tmp directory and see if we can find that file.
 
 9. We get no hits on any new files. However, that doesn't always mean that there are no files present, let's run a new command to look for any hidden files.
 
-**Analysis:** In linux files can be hidden from normal view but adding a `./` at the beginning of it's name. To find those files we can use a more refined `ls` command.
+**Analysis:** In linux files can be hidden from normal view but adding a `.` at the beginning of it's name. To find those files we can use a more refined `ls` command.
 
 10. In the terminal emulator run the command `ls -la /tmp`.
 ![](./Step9.png)
