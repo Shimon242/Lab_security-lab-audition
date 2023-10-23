@@ -1,8 +1,8 @@
 # Introduction
-This lab project is my audition to create virtual labs for pluralsight. It focuses on teaches students three main concepts: 
+This lab project is my audition to create virtual labs for pluralsight. It focuses on teaching students three main concepts: 
 1) How to locate files and hidden files in the linux file system
 2) The concept of encoded messages and how to decode base64 encoded messages
-3) The concept of prviledge escalation and a simple technique that can be used to bypass access restrictions.
+3) The concept of privilege escalation and a simple technique that can be used to bypass access restrictions.
 
 
 # Some Environment Setup Notes
