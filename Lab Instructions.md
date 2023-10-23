@@ -1,4 +1,4 @@
-# Exploring the Linux File System, Bypassing Encoding and Priviledge Escalation
+# Exploring the Linux File System, Bypassing Encoding and Privilege Escalation
 ## Lab Description: In this challenge, you will explore a linux system in search of sensitive files and uncover their secrets.
 
 The notorious hacking group Dark Kittens has struck again! Who are they? What do
