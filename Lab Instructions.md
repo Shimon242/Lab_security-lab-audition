@@ -20,7 +20,7 @@ First things first, let's configure the environment.
 2.  In the console window, type `chmod 755 Lab_setup.sh` and hit enter, then type `./Lab_setup.sh` and hit enter.
 
 3. Our first goal is to identify any files that may be related to the "ideal society" project. 
-To do this let's run a command that will scan the entire file system for any files that begin with the words "ideal".
+To do this let's run a command that will scan the entire file system for any files that has the word "ideal" in it's name.
 
 4. In the terminal emulator run the command `find / -name ideal* 2>/dev/null`.
 
